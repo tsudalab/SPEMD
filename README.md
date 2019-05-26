@@ -24,4 +24,4 @@ Successful Parameter Enumerator for MD simulation
  
 - Langevin dynamics version.
   - `python parameter_enumerator.py 30,9,5 400 example/parameter_list\(Langevin\).csv 0.8 --method BOUS --test Langevin`
-  - BOUS based search with the success threshold of 0.8 using 400 samplings
+  - US based search with the success threshold of 0.8 using 400 samplings
