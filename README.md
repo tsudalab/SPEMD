@@ -9,6 +9,9 @@ Successful Parameter Enumerator for MD simulation
 4. scikit-learn 
 5. scipy
 
+## Installation
+Download or clone the github repository, e.g. git clone https://github.com/tsudalab/SPEMD
+
 ## Usage
 - Preparation
   - Please list all parmeter candidates as a CSV file. (See example/parameter_list(Newtonian).csv or example/parameter_list(Langevin).csv)
