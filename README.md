@@ -18,8 +18,8 @@ Download or clone the github repository, e.g. git clone https://github.com/tsuda
   - Please call your MD simulation in the simulation function in simulator.py and return its success rate.
 
 - Sucessful parameter enumeration based on machine learning algorithms. (See the commands of F1-motor examples in the following.)
-  - `python parameter_enumerator.py [] [Number of samplings] [Directory of the parameter candidate file] [Successful threshold] --method [Search method]`
-  - Search methods: BOUS (Combination of BO and US), BO (Bayesian Optimization), US (Uncertainty Sampling), RS (Random Sampling)
+  - `python parameter_enumerator.py [Comma separated numbers of candidate for each variable] [Number of sampling iterations] [Directory of the parameter candidate file] [Successful threshold] --method [Search method]`
+  - Available search methods: BOUS (Combination of BO and US), BO (Bayesian Optimization), US (Uncertainty Sampling), RS (Random Sampling)
 
 ## Enumeration examples of F1-motor simulation based on CG-MD
 - Newtonian dynamics version.
