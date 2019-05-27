@@ -17,7 +17,7 @@ Download or clone the github repository, e.g. git clone https://github.com/tsuda
   - Please list all parmeter candidates as a CSV file. (See example/parameter_list(Newtonian).csv or example/parameter_list(Langevin).csv)
   - Please call your MD simulation in the simulation function in simulator.py and return its success rate.
 
-- Sucessful parameter enumeration based on machine learning algorithms. (See the commands of F1-motor examples in the following.)
+- Sucessful parameter enumeration based on machine learning algorithms. (See the example commands of F1-motor in the following.)
   - `python parameter_enumerator.py [Comma separated numbers of candidate for each variable] [Number of sampling iterations] [Directory of the parameter candidate file] [Successful threshold] --method [Search method]`
   - Available search methods: BOUS (Combination of BO and US), BO (Bayesian Optimization), US (Uncertainty Sampling), RS (Random Sampling)
 
