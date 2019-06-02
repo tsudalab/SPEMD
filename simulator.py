@@ -2,7 +2,7 @@ import csv
 
 def simulation(parameter,test=None):
     if test == None:
-        #Please call your MD simulation program wiht the input parameter 
+        #Please call your MD simulation program with the input parameter 
         #and return its success rate.
         print('Simulation')
 
